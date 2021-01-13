@@ -1,0 +1,77 @@
+/*-----------------↓フッター-------------------*/
+
+.footer-area {
+    width:100%;
+    background:#e0e0e0;
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.footer-container {
+    width:100%;
+    max-width: 1100px;
+}
+
+.footer-top-button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:60px;
+    border-bottom: 1px solid #000;
+}
+
+.footer-sns {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    height:60px;
+    border-bottom: 1px solid #000;
+}
+
+.footer-sns p {
+    margin-right:60px;
+    font-weight: bold;
+}
+
+.footer-sns a:not(:first-of-type) {
+    margin-left:30px;
+}
+
+.footer-main {
+    display:flex;
+    justify-content: center;
+    padding:40px 0px;
+    border-bottom: 1px solid #000;
+}
+
+.footer-menu {
+    display:flex;
+    padding-right: 80px;
+    border-right: 1px solid #000;
+}
+
+.footer-menu ul:last-of-type {
+    margin-left:30px;
+}
+
+.footer-logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 80px;
+}
+
+.footer-copy {
+    width:100%;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,83 @@
+.about-header {
+    background:gray;
+    height:400px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 48px;
+    overflow: hidden;
+    position:relative;
+}
+
+.about-title {
+    z-index: 100;
+}
+
+.bg-video {
+    position:absolute;
+    width:100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    filter: grayscale(80%) blur(2px);
+}
+
+h3 {
+    width:100%;
+    
+    padding-bottom: 10px;
+    border-bottom:1px solid #000;
+}
+
+h3:first-of-type {
+    margin-top:50px;
+}
+
+.about {
+    width:80vw; 
+    max-width:1100px;
+    margin:0 auto;    
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*-----------------↓テーブルの設定-------------------*/
+.about-table {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    box-sizing:border-box;
+    padding:40px 30px;
+}
+
+.table-title {
+    font-weight:bold;
+    text-align:left;
+    width:150px;
+}
+
+.table-content {
+    text-align:left;
+}
+
+tr {
+    height:50px;
+}
+
+
+
+/*-----------------↓マップ埋め込みの設定-------------------*/
+
+.about-map {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:40px 0px;
+}
+
+

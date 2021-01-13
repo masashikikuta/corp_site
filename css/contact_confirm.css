@@ -1,0 +1,28 @@
+.contact-confirm-area {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    padding:40px;
+}
+
+h1 {
+    margin-bottom:20px;
+}
+
+.back_button {
+    display:block;
+    background:#1fb285;
+    width:300px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-top:20px;
+    text-decoration: none;
+    color:white;
+}

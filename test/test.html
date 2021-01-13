@@ -1,0 +1,62 @@
+<h2>jQueryでフォームバリデーション</h2>
+<form action="" id="form" class="form" novalidate>
+
+  <div class="row">
+    <label for="name">名前</label>
+    <div class="input-box">
+      <input type="text" name="name" id="name" class="form-text">
+      <span></span>
+    </div>
+  </div>
+  <div class="row">
+    <label for="email">メールアドレス</label>
+    <div class="input-box">
+      <input type="email" name="email" id="email" class="form-text">
+      <span></span>
+    </div>
+  </div>
+  <div class="row">
+    <label for="tel">電話番号</label>
+    <div class="input-box">
+      <input type="tel" name="tel" id="tel" class="form-text">
+      <span></span>
+    </div>
+  </div>
+  <div class="row">
+    <label for="postcode">郵便番号</label>
+    <div class="input-box">
+      <input type="text" name="postcode" id="postcode" class="form-text">
+      <span></span>
+    </div>
+  </div>
+  <div class="row">
+    <label for="address">住所</label>
+    <div class="input-box">
+      <input type="text" name="address" id="address" class="form-text"><span></span>
+    </div>
+  </div>
+  <div class="row">
+    <label for="">性別</label>
+    <div class="input-box">
+      <select name="gender" id="gender" class="form-text">
+        <option value='' disabled selected style='display:none;'>選択してください</option>
+        <option value="man">男性</option>
+        <option value="women">女性</option>
+      </select>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="row">
+    <label>チェックボックス</label>
+    <div class="input-box">
+      <input type="checkbox" name="rabel" id="1"><label for="1">チェック１</label>
+      <input type="checkbox" name="rabel" id="2"><label for="2">チェック２</label>
+      <input type="checkbox" name="rabel" id="3"><label for="3">チェック３</label>
+      <span></span>
+    </div>
+  </div>
+  <div class="row">
+    <button type="submit">送信</button>
+  </div>
+</form>
